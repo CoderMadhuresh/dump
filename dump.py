@@ -70,6 +70,6 @@ st.dataframe(portfolio_df, use_container_width=True)
 
 # Refresh Button
 if st.button("🔁 Refresh Live Prices"):
-    st.experimental_rerun()
+    st.rerun()
 
 st.caption("Live prices update every minute from Yahoo Finance. Click refresh to update.")
